@@ -166,7 +166,7 @@ export const DecimalOptions = ({ onApply, onCancel }: ISubmenuProps): JSX.Elemen
                   <Tooltip
                     arrow
                     enterDelay={500}
-                    title={T.translate(`${PREFIX}.scaleTooltip`).toString()}
+                    title={T.translate(`${PREFIX}.scaleTooltip`).toString()} // Specifies the scale of the decimal (?)
                     classes={{ tooltip: classes.customTooltip, arrow: classes.customTooltipArrow }}
                   >
                     <IconButton
